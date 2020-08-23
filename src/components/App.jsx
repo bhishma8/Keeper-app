@@ -5,7 +5,7 @@ import Footer from "./Footer";
 import notes from "../notes";
 
 function createNote(text) {
-  return <Note />;
+  return <Note title={text.title} content={text.content} />;
 }
 
 function App() {
